@@ -44,24 +44,27 @@ FlowNet includes various visualizations to analyze and compare model performance
 
 ### 1. **Distribution Plots of 'REF_k' and 'REF_divtau_1' by Class**
 - Helps understand feature distribution across target classes.
-- **[Directory: `visualizations/distribution_plots/`]**
 ![Category Distribution](img/1.jpg)
 
 ### 2. **Pairplot for the First 5 Features**
 - Visualizes relationships between the first five selected features.
-- **[Directory: `visualizations/pairplots/first_5_features/`]**
+![Category Distribution](img/2.jpg)
 
 ### 3. **Pairplot for the Next 5 Features**
 - If applicable, explores correlations between the next five selected features.
-- **[Directory: `visualizations/pairplots/next_5_features/`]**
+![Category Distribution](img/3.jpg)
 
 ### 4. **Class Distribution Check**
 - Ensures balanced representation across different classes.
-- **[Directory: `visualizations/class_distribution/`]**
+![Category Distribution](img/4.jpg)
+
+### 4. **Target Class Distribution**
+- Display all classes to the target.
+![Category Distribution](img/5.jpg)
 
 ### 5. **Correlation Matrix**
 - Displays feature correlations to identify redundant or highly correlated variables.
-- **[Directory: `visualizations/correlation_matrix/`]**
+![Category Distribution](img/6.jpg)
 
 ## Model Evaluation
 - **Metrics Used:** Accuracy, Precision, Recall, F1-score
